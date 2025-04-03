@@ -1,2 +1,3 @@
 # sigmaSEQ
-SigmaSEQ Tool
+SigmaSEQ RNA Seq Analysis Tool.
+
