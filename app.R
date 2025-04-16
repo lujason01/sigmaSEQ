@@ -465,11 +465,4 @@ server <- function(input, output) {
 shinyApp(ui = ui, server = server)
 
 
-# Deploying app
-
-#library(rsconnect)
-
-#rsconnect::deployApp()
-
-
 response1 <- get_response(user_input = "How to calculate the bonforoni corrected p values?")
