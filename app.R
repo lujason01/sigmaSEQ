@@ -463,6 +463,3 @@ server <- function(input, output) {
 
 # Run the application 
 shinyApp(ui = ui, server = server)
-
-
-response1 <- get_response(user_input = "How to calculate the bonforoni corrected p values?")
