@@ -1,0 +1,26 @@
+.form-group {
+  margin-bottom: 15px;
+}
+
+.box {
+  margin-bottom: 20px;
+}
+
+.value-box {
+  margin-bottom: 15px;
+}
+
+.plotly {
+  margin-bottom: 10px;
+}
+
+.btn-block {
+  margin-top: 10px;
+}
+
+/* Custom tooltip styling */
+.tooltip-inner {
+  max-width: 200px;
+  padding: 8px;
+  font-size: 14px;
+}

@@ -1,0 +1,7 @@
+sample_id,group,time_point,replicate,condition
+control_1,control,24h,1,untreated
+control_2,control,24h,2,untreated
+control_3,control,24h,3,untreated
+treatment_1,treatment,24h,1,treated
+treatment_2,treatment,24h,2,treated
+treatment_3,treatment,24h,3,treated 

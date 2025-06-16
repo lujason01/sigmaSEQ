@@ -1,0 +1,30 @@
+Package: sigmaSEQApp
+Title: RNA-Seq Analysis Platform
+Version: 1.0.0
+Authors@R: 
+    person("Jason", "Lubega", , "lubegajason@gmail.com", role = c("aut", "cre"))
+Description: A comprehensive RNA-Seq analysis platform with GEO data integration.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports:
+    shiny,
+    bs4Dash,
+    DT,
+    GEOquery,
+    limma,
+    Biobase,
+    BiocManager,
+    httr,
+    xml2,
+    jsonlite,
+    querychat,
+    dplyr,
+    tidyr,
+    ggplot2
+Suggests:
+    testthat,
+    knitr,
+    rmarkdown
+Config/testthat/edition: 3 

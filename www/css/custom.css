@@ -1,0 +1,113 @@
+/* General Styles */
+.content-wrapper {
+    background-color: #f4f6f9;
+}
+
+/* Welcome Panel */
+.welcome-panel {
+    text-align: center;
+    padding: 2rem;
+}
+
+.welcome-panel h3 {
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+}
+
+.welcome-panel ol {
+    text-align: left;
+    max-width: 600px;
+    margin: 2rem auto;
+    padding-left: 2rem;
+}
+
+.welcome-panel ol li {
+    margin-bottom: 1rem;
+    color: #34495e;
+}
+
+/* Analysis Steps */
+.analysis-step {
+    position: relative;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.analysis-step:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+/* Loading Indicators */
+.loading-spinner {
+    display: none;
+    text-align: center;
+    padding: 2rem;
+}
+
+.loading-spinner.active {
+    display: block;
+}
+
+/* Tooltips */
+.help-tooltip {
+    color: #6c757d;
+    margin-left: 0.5rem;
+    cursor: help;
+}
+
+/* Progress Indicators */
+.step-progress {
+    margin: 2rem 0;
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .welcome-panel {
+        padding: 1rem;
+    }
+    
+    .analysis-step {
+        margin: 0.5rem;
+    }
+}
+
+/* Animation for transitions */
+.fade-enter {
+    opacity: 0;
+}
+
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms ease-in;
+}
+
+/* Status indicators */
+.status-badge {
+    padding: 0.25rem 0.5rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.status-success {
+    background-color: #28a745;
+    color: white;
+}
+
+.status-warning {
+    background-color: #ffc107;
+    color: black;
+}
+
+.status-error {
+    background-color: #dc3545;
+    color: white;
+} 

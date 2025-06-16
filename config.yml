@@ -1,0 +1,50 @@
+ default:
+  app_name: "SigmaSEQ"
+  app_version: "1.0.0"
+  app_description: "RNA-Seq Analysis Pipeline"
+  
+  # Theme configuration
+  theme:
+    primary: "primary"
+    secondary: "info"
+    success: "success"
+    info: "info"
+    warning: "warning"
+    danger: "danger"
+    light: "light"
+    dark: "dark"
+    background: "#ffffff"
+    navbar:
+      background: "primary"
+    sidebar:
+      background: "light"
+    card:
+      background: "#ffffff"
+  
+  # Upload settings
+  max_upload_size: 52428800  # 50MB in bytes
+  allowed_file_types:
+    - ".csv"
+    - ".tsv"
+    - ".txt"
+  
+  # Analysis parameters
+  default_parameters:
+    min_count: 10
+    min_samples: 3
+    p_value_cutoff: 0.05
+    fold_change_cutoff: 1.5
+  
+  # AI Configuration
+  openai:
+    model: "gpt-4"
+    temperature: 0.7
+    max_tokens: 1000
+    timeout: 30
+  
+  # Paths
+  paths:
+    data: "data"
+    results: "results"
+    logs: "logs"
+    temp: "temp"

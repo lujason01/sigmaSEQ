@@ -1,0 +1,27 @@
+/* Download button styling */
+.download-button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+.download-button:hover {
+  color: #0056b3;
+}
+
+.download-button .btn-text {
+  display: none;
+}
+
+.download-button:hover .btn-text {
+  display: inline;
+  margin-left: 5px;
+}
+
+.download-button i {
+  font-size: 1.2em;
+} 

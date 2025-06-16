@@ -1,0 +1,172 @@
+.geo-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.geo-input-group {
+    margin-bottom: 20px;
+}
+
+.geo-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.geo-input:focus {
+    border-color: #4a90e2;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+.geo-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.geo-button-primary {
+    background-color: #4a90e2;
+    color: white;
+}
+
+.geo-button-primary:hover {
+    background-color: #357abd;
+}
+
+.geo-button-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.geo-button-secondary:hover {
+    background-color: #545b62;
+}
+
+.geo-loading-container {
+    display: none;
+    position: relative;
+    margin: 20px 0;
+    text-align: center;
+    min-height: 100px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.geo-progress-container {
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.geo-progress-bar {
+    width: 0;
+    height: 20px;
+    background-color: #4a90e2;
+    transition: width 0.3s ease;
+}
+
+.geo-progress-text {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #666;
+}
+
+.geo-spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #4a90e2;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    z-index: 1000;
+}
+
+@keyframes spin {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+.geo-status {
+    display: none;
+    padding: 15px;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+.geo-info {
+    background-color: #e3f2fd;
+    color: #0d47a1;
+    border: 1px solid #bbdefb;
+}
+
+.geo-success {
+    background-color: #e8f5e9;
+    color: #1b5e20;
+    border: 1px solid #c8e6c9;
+}
+
+.geo-warning {
+    background-color: #fff3e0;
+    color: #e65100;
+    border: 1px solid #ffe0b2;
+}
+
+.geo-error {
+    background-color: #ffebee;
+    color: #b71c1c;
+    border: 1px solid #ffcdd2;
+}
+
+.geo-select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.geo-select:focus {
+    border-color: #4a90e2;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+.geo-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .geo-container {
+        padding: 10px;
+    }
+    
+    .geo-button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+} 
