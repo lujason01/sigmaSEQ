@@ -1,0 +1,7 @@
+# sigmaSEQ Security Log
+# Created: 2025-06-16T23:08:34Z
+# Purpose: Track security-related events and access logs for sigmaSEQ application
+
+[2025-06-16 23:08:34] INFO: Security logging initialized
+[2025-06-16 23:08:34] INFO: Log file created at logs/security.log
+

@@ -1,14 +1,14 @@
 # SigmaSEQ: RNA-seq Analysis Application
 
-## Creator: Lubega Jason
-## Lab: Jason Lubega's Lab
+## Creator: Jason Lubega
+## Lab: LuBega's Lab
 
 ## Motivation
 This application was born from a personal experience of spending 20 days analyzing RNA-Seq data for an assignment. While the learning experience was invaluable, the time investment inspired the creation of a tool that would streamline this process for future analyses. As they say, great tools often come from a touch of "productive laziness"!
 
 ## Timeline
-- Start: 25.Marzo.2025
-- v1 release: Mayo 2025
+- Start: 25.March.2025
+- v1 release: May 2025
 - Status: Work in Progress
 
 ## Overview
@@ -338,4 +338,4 @@ For support, please:
 - All contributors and users
 
 ## Note
-This is a passion project intended to be a learning curve, developed outside work hours. We are open to suggestions to make it better and more robust. 
+This is a passion project intended to be a learning curve, developed outside work hours. We are open to suggestions to make it better and more robust.
