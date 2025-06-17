@@ -1,18 +1,24 @@
 # SigmaSEQ: RNA-seq Analysis Application
 
-## Creator: Jason Lubega
-## Lab: LuBega's Lab
+## Creator: Jason Lubega x CursorAI
+## Lab: Lubega Bioinformatics Lab
 
 ## Motivation
-This application was born from a personal experience of spending 20 days analyzing RNA-Seq data for an assignment. While the learning experience was invaluable, the time investment inspired the creation of a tool that would streamline this process for future analyses. As they say, great tools often come from a touch of "productive laziness"!
 
+This application was born from a personal experience of spending 20 days analyzing RNA-Seq data for an assignment. While the learning experience was invaluable, the time investment inspired the creation of a tool that would streamline this process for future analyses. As they say, great tools often come from a touch of "productive laziness"!
+Besides that, my wet lab had RNA seq data that required us to contact a bioinformatician to revisit when we had more questions. I thought that it would be great to have a replayable (readily available) copy of the analysis made instead of a few heatmaps, tables and lists. 
+The long term goal is to create a tool for reusable analysis (not static).
 ## Timeline
-- Start: 25.March.2025
-- v1 release: May 2025
-- Status: Work in Progress
+- Start: March 25, 2025
+- v1.0 release: June 2025
+- Current Status: Active Development
+- Latest Update: December 2024
 
 ## Overview
-SigmaSEQ is a Shiny application for RNA-seq data analysis, developed by Jason Lubega's Lab. The application provides an intuitive interface for exploratory data analysis, differential expression analysis, and pathway enrichment analysis. The application integrates with OpenAI's GPT for intelligent interpretation of results.
+SigmaSEQ is a Shiny application for RNA-seq data analysis that provides an intuitive interface for exploratory data analysis, differential expression analysis, and pathway enrichment analysis.  
+The application integrates OpenAI's API for AI-based interpretation of results. 
+
+It is still a work in progress and very buggy but it will improve with time.
 
 ## Training Dataset
 - GSE183325 dataset (included with RMarkdown documentation)
@@ -301,11 +307,7 @@ Using Google Fonts:
 
 ## Contributing
 
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
+Let me know what you think of this project and feel free to advise. 
 
 ## License
 
