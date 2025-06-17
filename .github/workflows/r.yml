@@ -67,7 +67,16 @@ jobs:
       - name: Install R dependencies
         run: |
           # Install basic dependencies
-          install.packages(c("remotes", "rcmdcheck", "BiocManager", "sessioninfo"), repos = "https://cloud.r-project.org/")
+          install.packages(c("remotes", "rcmdcheck", "BiocManager", "sessioninfo", "devtools"), repos = "https://cloud.r-project.org/")
+          
+          # Install querychat from GitHub
+          tryCatch({
+            devtools::install_github("posit-dev/querychat", dependencies = TRUE)
+            message("Successfully installed querychat from GitHub")
+          }, error = function(e) {
+            message("Error installing querychat: ", e$message)
+            stop("Failed to install querychat package")
+          })
           
           # Set Bioconductor version for R 4.4.3
           BiocManager::install(version = "3.19", ask = FALSE, update = FALSE)
