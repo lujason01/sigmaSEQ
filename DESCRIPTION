@@ -22,7 +22,8 @@ Imports:
     querychat,
     dplyr,
     tidyr,
-    ggplot2
+    ggplot2,
+    here
 Suggests:
     testthat,
     knitr,

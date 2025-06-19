@@ -67,7 +67,7 @@ jobs:
       - name: Install R dependencies
         run: |
           # Install basic dependencies
-          install.packages(c("remotes", "rcmdcheck", "BiocManager", "sessioninfo", "devtools"), repos = "https://cloud.r-project.org/")
+          install.packages(c("remotes", "rcmdcheck", "BiocManager", "sessioninfo", "devtools", "here"), repos = "https://cloud.r-project.org/")
           
           # Install querychat from GitHub
           tryCatch({
