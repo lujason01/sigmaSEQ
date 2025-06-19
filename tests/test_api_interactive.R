@@ -1,6 +1,7 @@
 library(shiny)
 library(bs4Dash)
-source("R/helpers/api_utils.R")
+library(here)
+source(here("R/helpers/api_utils.R"))
 
 ui <- dashboardPage(
   header = dashboardHeader(title = "API Test"),
