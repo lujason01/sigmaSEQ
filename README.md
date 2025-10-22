@@ -1,7 +1,7 @@
 # SigmaSEQ: RNA-seq Analysis Application
 
 ## Creator: Jason Lubega x CursorAI
-## Lab: Lubega Bioinformatics Lab
+## Lab: Lubega Lab
 
 ## Motivation
 
@@ -12,7 +12,7 @@ The long term goal is to create a tool for reusable analysis (not static).
 - Start: March 25, 2025
 - v1.0 release: June 2025
 - Current Status: Active Development
-- Latest Update: December 2024
+- Latest Update: June 2025
 
 ## Overview
 SigmaSEQ is a Shiny application for RNA-seq data analysis that provides an intuitive interface for exploratory data analysis, differential expression analysis, and pathway enrichment analysis.  
